@@ -6,7 +6,7 @@ This is the result of following the **Building a Facebook CommentBox with Elm** 
 
 ## Usage
 
-Please make sure you install [Elm]().
+Please make sure you install [Elm](http://guide.elm-lang.org/get_started.html).
 
 ```
 git clone
