@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "summary": "helpful summary of your project, less than 80 characters",
-    "repository": "https://github.com/user/project.git",
+    "summary": "This is the result of following the Building a Facebook CommentBox with Elm tutorial",
+    "repository": "https://github.com/JoseGonzalez321/Elm-CommentBox.git",
     "license": "BSD3",
     "source-directories": [
         "."
