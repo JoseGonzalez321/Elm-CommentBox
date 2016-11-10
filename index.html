@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>title</title>
+        <link rel="stylesheet" href="mystyle.css" >
+    </head>
+    <body>
+        <h2>Hello Elm!</h2>
+        <p>This is an article, below is the comment box.</p>
+        <div id="comment-box"></div>
+    </body>
+
+<!-- Fonts and external JS and styles are available, I've put Ace for example -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.4/ace.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.4/theme-chrome.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.4/worker-lua.js"></script>
+
+<script type="text/javascript" src="comment-box.js"></script>
+
+<script type="text/javascript">
+    var node = document.getElementById("comment-box");
+    var app = Elm.Main.embed(node);
+</script>        
+
+</html>
